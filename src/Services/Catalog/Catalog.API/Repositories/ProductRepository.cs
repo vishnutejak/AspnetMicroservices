@@ -58,9 +58,9 @@ namespace Catalog.API.Repositories
             //Find is the Method in MongoDB.Driver
             //End result is all the products in the DB are returned to the calling funtion.
             return await _context
-                        .Products
-                        .Find(prop => true)
-                        .ToListAsync();
+                            .Products
+                            .Find(p => true)
+                            .ToListAsync();
         }
 
         public async Task<IEnumerable<Product>> GetProductsByCategory(string categoryName)
