@@ -1,29 +1,14 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:9630",
-      "sslPort": 0
-    }
-  },
-  "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "Discount.API": {
+    "Start": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": "true",
+      "ErrorString": "After parsing a value an unexpected character was encountered: ï¿½. Path 'profiles['Discount.API'].applicationUrl', line 29, position 4.",
       "applicationUrl": "http://localhost:5002"
-    ¿6†÷r&]
+    }
+  }
+}
